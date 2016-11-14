@@ -7,6 +7,10 @@ describe Review do
   end
 
   it 'has a restaurant name' do
-    expect(review.restaurant_name).to be_a(String) 
+    expect(review.restaurant_name).to be_a(String)
+  end
+
+  it 'has a comment' do
+    expect(review.comment).to be_a(String)
   end
 end
